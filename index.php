@@ -22,6 +22,7 @@
 
 	</form>
 	<!-- On fait le hasahge avec BCRYPT par défaut dans la fonction password_hash de php -->
+	<!-- Il y' a un bug à corriger, le formulaire peut evoyer du vide lorsque utilisateur ne rentre rien ce n'est pas acceptable-->
 
 	<?php
 	if (isset($_POST['valide'])) : ?>
