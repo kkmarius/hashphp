@@ -7,7 +7,7 @@
 
 	<title>Hash password </title>
 	<meta name="description" content="Hash password">
-	<meta name="author" content="Hash password">
+	<meta name="author" content="Marius KOUASSI">
 
 </head>
 
@@ -44,7 +44,7 @@
 					alert(`Texte copié !`)
 				})
 				.catch((error) => {
-					alert(`Copy failed! ${error}`)
+					alert(`Échec de la copie! ${error}`)
 				})
 		}
 		document.querySelector("#copy").addEventListener("click", copy);
